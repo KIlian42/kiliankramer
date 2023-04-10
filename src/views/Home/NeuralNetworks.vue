@@ -1,0 +1,130 @@
+<template>
+  <v-app id="NeuralNetworks-c">
+    <!-- v-btn block class="primary">1</v-btn> -->
+    <!-- class="ma-0 pa-0" -->
+    <v-container fill-height fluid>
+      <v-layout row wrap justify-center align-xs-start align-sm-start align-md-start align-lg-center align-xl-center style="height:103%;">
+        <v-flex xs12 sm12 md12 lg6 xl6>
+          <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
+            <div id="videocontainer">
+              <!-- <img src="../../assets/logo.png" style="border-radius:15px;margin-top:4px" width="100%" height="100%" /> -->
+              <video controls width="100%" height="100%" playsinline autoplay loop muted>
+                <source src="../../assets/NeuralNetworkSimulation.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </v-flex>
+        <v-flex xs12 sm12 md12 lg6 xl6>
+          <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
+            <div id="text">
+              <p>
+              Neural networks are capable to learn any pattern,
+              <br>
+              however every data needs pre-processing.
+              <br><br>
+              For instance, text (words) are in Chat-GPT encoded as vectors,
+              <br>
+              so called embeddings. Through context-based training the
+              <br>
+              language model can learn the semantic meaning by predicting
+              <br>
+              context words to cluster these embedding vectors.
+              <br><br>
+              I will share my knowledge with You, while building Your
+              <br>
+              machine learning application. I will advise You with the necessary
+              <br>
+              Know-How in data pre-processing, data augmentation, feature
+              <br>
+              engineering, model selection, model engineering and fine-tuning.
+              <br>
+              My domain experience include natural language processing, computer
+              <br>
+              vision, recommender systems, planning, reinforcement learning and
+              <br>
+              other. Projects I worked in at least for a half year (thesis/work) 
+              <br>
+              focused on autonomous driving, medical data, recommender systems,
+              <br>
+              natural language processing and web development (full stack).
+              </p>
+            </div>
+          </div>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-app>
+</template>
+
+<script>
+  export default {
+    name: "NeuralNetworks-c",
+    data: () => ({
+
+    }),
+    methods: {
+
+    }
+  }
+</script>
+<style lang="scss" scoped>
+::v-deep .v-application--wrap {
+  min-height: fit-content;
+}
+#NeuralNetworks-c {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color:#151515;
+}
+#videocontainer {
+  padding-left: 5%;
+}
+#text {
+  text-align: left;
+  padding-left: 4%;
+  color: white;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 160%;
+}
+@media (max-width: 1400px) {
+  #text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1264px) {
+  #videocontainer {
+    margin-top: -0.5%;
+    padding-left: 0%;
+  }
+  #text {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  #text {
+    font-size: 16px;
+    padding-top: 25%;
+    padding-bottom: 32%;
+  }
+}
+@media (max-width: 400px) {
+  #text {
+    font-size: 12px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
+  #text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 18px;
+  }
+}
+</style>
