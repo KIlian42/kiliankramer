@@ -45,19 +45,19 @@ new TypeIt("#typedtext", {
   loop: true,
   cursor: false
 }).go()
-  .type("&nbsp;&nbsp;&nbsp;Data Analysis.")
+  .type("&nbsp;&nbsp;&nbsp;Data Analysis")
   .pause(3000)
   .delete(20, { deleteSpeed: 150 })
   .pause(2000)
-  .type("Machine Learning.", {speed: 300})
+  .type("Machine Learning", {speed: 300})
   .pause(3000)
   .delete(20, { deleteSpeed: 150 })
   .pause(1500)
-  .type("Cloud Integration.", {speed: 150})
+  .type("Cloud Integration", {speed: 150})
   .pause(3000)
   .delete(25, { deleteSpeed: 150 })
   .pause(1500)
-  .type("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Webdesign. ", {speed: 150})
+  .type("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Webdesign", {speed: 150})
   .pause(3000)
   .delete(20, { deleteSpeed: 150 })
   .go();

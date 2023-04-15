@@ -6,7 +6,7 @@
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
             <div id="imagecontainer">
               <center>
-                <img src="../../assets/Me.jpeg" />
+                <img src="../../assets/Me.png" />
               </center>
             </div>
           </div>
@@ -17,17 +17,31 @@
               <p> 
                 Hi, I'm Kilian Kramer and I am a full-stack developer.
                 <br><br>
-                I build innovative software and design websites for my customers.
+                I build innovative software and design websites.
                 <br>
-                I have a bachelor degree in Business Informatics (B.Sc) and I will
+                I have a bachelor degree in Business Informatics (B.Sc)
                 <br>
-                soon finish a master in Artificial Intelligence (M.Sc).
-                <br><br>
+                and a master degree in Artificial Intelligence (M.Sc).
+                <br>
                 No matter what concerns You have, whether it's a small
                 <br>
                 feature or a larger project, I may assist You as consultant
                 <br>
-                or will implement Your software.
+                or will implement Your application.
+                <br><br>
+                While building Your individual machine learning model I will share
+                <br>
+                my experience in data pre-processing, data augmentation, feature
+                <br>
+                engineering, model selection, model engineering and fine-tuning.
+                <br>
+                My domain knowledge include Natural Language Processing, Computer Vision,
+                <br>
+                Recommender Systems, Planning Systems, Reinforcement Learning and other.
+                <br>
+                Previous Projects focused specifically on autonomous driving, medical data,
+                <br>
+                recommender systems, natural language processing and web development.
                 <br><br>
                 Send me an e-mail below to contact me.
               </p>
@@ -63,7 +77,7 @@
 }
 #imagecontainer {
   img {
-    margin-left: -25%;
+    margin-left: -20%;
     margin-top: 8%;
     width: 68%;
   }
@@ -71,7 +85,7 @@
 #text {
   text-align: left;
   padding-top: 8%;
-  padding-left: 20%;
+  padding-left: 15%;
   color: white;
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
   font-size: 20px;

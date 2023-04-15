@@ -30,23 +30,11 @@
               <br>
               context words to cluster these embedding vectors.
               <br><br>
-              I will share my knowledge with You, while building Your
+              In the video is an example for Image Recognition. Popular techniques
               <br>
-              machine learning application. I will advise You with the necessary
+              in Computer Vision are Convolutional Networks, which process image
               <br>
-              Know-How in data pre-processing, data augmentation, feature
-              <br>
-              engineering, model selection, model engineering and fine-tuning.
-              <br>
-              My domain experience include natural language processing, computer
-              <br>
-              vision, recommender systems, planning, reinforcement learning and
-              <br>
-              other. Projects I worked in at least for a half year (thesis/work) 
-              <br>
-              focused on autonomous driving, medical data, recommender systems,
-              <br>
-              natural language processing and web development (full stack).
+              features using convolutional filters.
               </p>
             </div>
           </div>

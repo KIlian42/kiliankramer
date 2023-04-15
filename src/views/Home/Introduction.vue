@@ -18,7 +18,7 @@
                 <br>
                 Sooner or later companies have to deal with
                 <br>
-                the topic "AI" to not to lag behind in future.
+                the topic "AI" to not lag behind in future.
                 <br><br><br v-if="showBreak2()">
                 If your team or business have innovative ideas,
                 <br>
