@@ -19,7 +19,7 @@
         <Contact />
       </section>
     </article>
-    <Footer />
+    <FooterC />
   </div>
 </template>
 
@@ -30,7 +30,7 @@ import Introduction from "./views/Home/Introduction.vue"
 import NeuralNetworks from "./views/Home/NeuralNetworks.vue"
 import About from "./views/Home/About.vue"
 import Contact from "./views/Home/Contact.vue"
-import Footer from "./components/Footer.vue"
+import FooterC from "./components/Footer.vue"
 
 export default {
   name: "App",
@@ -73,7 +73,7 @@ export default {
     NeuralNetworks,
     About,
     Contact,
-    Footer
+    FooterC
   }
 };
 </script>
