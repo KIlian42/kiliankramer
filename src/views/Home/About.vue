@@ -23,9 +23,9 @@
                 <br>
                 and a master degree in Artificial Intelligence (M.Sc).
                 <br>
-                No matter what concerns You have, whether it's a small
+                No matter what concerns You have: a small feature
                 <br>
-                feature or a larger project, I may assist You as consultant
+                or a larger project, I may assist You as consultant
                 <br>
                 or will implement Your application.
                 <br><br>
@@ -39,7 +39,7 @@
                 <br>
                 Recommender Systems, Planning Systems, Reinforcement Learning and other.
                 <br>
-                Previous Projects focused specifically on autonomous driving, medical data,
+                Previous projects focused specifically on autonomous driving, medical data,
                 <br>
                 recommender systems, natural language processing and web development.
                 <br><br>
