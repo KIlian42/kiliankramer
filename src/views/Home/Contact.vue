@@ -36,7 +36,7 @@ export default {
 }
 #Contact-c {
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   //background-image: url("../../assets/stars3.jpg");
   background-image: linear-gradient(
@@ -77,6 +77,9 @@ a:link {
   }
 }
 @media (max-width: 600px) {
+  #Contact-c {
+    min-height: 40vh;
+  }
   a:link {
     font-size: 20px;
   }

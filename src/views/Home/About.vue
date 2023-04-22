@@ -1,5 +1,5 @@
 <template>
-  <v-app id="About-c">
+  <v-app class="noselect" id="About-c">
     <v-container fill-height fluid>
       <v-layout row wrap justify-center align-xs-start align-sm-start align-md-start align-lg-center align-xl-center style="height:103%;">
         <v-flex class="order-first order-md-last order-lg-last order-xl-last"  xs12 sm12 md5 lg5 xl5>
@@ -15,33 +15,33 @@
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
             <div id="text">
               <p> 
-                Hi, I'm Kilian Kramer and I am a full-stack developer.
+                Hi, I am Kilian Kramer and I am full-stack developer.
                 <br><br>
                 I build innovative software and design websites.
                 <br>
                 I have a bachelor degree in Business Informatics (B.Sc)
                 <br>
-                and a master degree in Artificial Intelligence (M.Sc).
+                and will soon finish my master in Artificial Intelligence (M.Sc).
                 <br>
-                No matter what concerns You have: a small feature
+                No matter what concerns you have: a small feature
                 <br>
-                or a larger project, I may assist You as consultant
+                or a large project, I may assist you as consultant
                 <br>
-                or will implement Your application.
+                or will implement your application.
                 <br><br>
-                While building Your individual machine learning model I will share
+                While building your individual machine learning model I will share my
                 <br>
-                my experience in data pre-processing, data augmentation, feature
+                experience in data labeling, data pre-processing, data augmentation,
                 <br>
-                engineering, model selection, model engineering and fine-tuning.
+                feature engineering, model selection, model engineering and fine-tuning.
                 <br>
-                My domain knowledge include Natural Language Processing, Computer Vision,
+                My domain knowledge include natural language processing, computer vision,
                 <br>
-                Recommender Systems, Planning Systems, Reinforcement Learning and other.
+                recommender systems, planning systems, reinforcement learning and other.
                 <br>
-                Previous projects focused specifically on autonomous driving, medical data,
+                Previous projects focused specifically on autonomous driving, medical
                 <br>
-                recommender systems, natural language processing and web development.
+                applications and recommender systems.
                 <br><br>
                 Send me an e-mail below to contact me.
               </p>
@@ -69,10 +69,20 @@
 ::v-deep .v-application--wrap {
   min-height: fit-content;
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #About-c {
   position: relative;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 80vh;
+  margin-top: -50px;
   background-color: #151515;
 }
 #imagecontainer {
@@ -91,61 +101,83 @@
   font-size: 20px;
   line-height: 160%;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1390px) {
   #text {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 10%;
     font-size: 18px;
   }
+  #imagecontainer {
+    img {
+      margin-top: 15%;
+    }
+  }
 }
-@media (max-width: 1020px) {
+@media (max-width: 1220px) {
   #text {
+    font-size: 17px;
     padding-top: 20%;
     padding-left: 6%;
     font-size: 17px;
   }
-}
-@media (max-width: 960px) {
   #imagecontainer {
     img {
-      margin-top: 0%;
-      margin-left: 0%;
-      width: 70%;
+      margin-top: 30%;
     }
   }
+}
+@media (max-width: 1080px) {
   #text {
-    padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
+    font-size: 14px;
+    padding-top: 20%;
+    padding-left: 6%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 960px) {
+  #text {
+    font-size: 20px;
+    padding-top: 15%;
+    text-align: center;
+  }
+    #imagecontainer {
+    img {
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+@media (max-width: 750px) {
   #text {
     font-size: 16px;
-    padding-top: 25%;
-    margin-bottom: -15px;
-    padding-left: 0%;
-    padding-right: 0%;
   }
 }
 @media (max-width: 600px) {
   #imagecontainer {
     img {
       width: 100%;
+      margin: auto;
     }
   }
   #text {
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 0%;
     padding-right: 0%;
   }
 }
 @media (max-width: 400px) {
+  #About-c {
+    min-height: 80vh;
+  }
   #text {
-    font-size: 12px;
+    margin-top: -5%;
+    font-size: 10px;
     padding-left: 0%;
     padding-right: 0%;
+  }
+  #imagecontainer {
+    img {
+      margin-top: -27%;;
+    }
   }
 }
 @media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
@@ -153,6 +185,12 @@
     font-size: 18px;
     padding-top: 5%;
     padding-bottom: 0%;
+  }
+  #imagecontainer {
+    img {
+      width: 100%;
+      margin: auto;
+    }
   }
 }
 </style>

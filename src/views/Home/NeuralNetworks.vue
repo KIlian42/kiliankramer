@@ -1,5 +1,5 @@
 <template>
-  <v-app id="NeuralNetworks-c">
+  <v-app class="noselect" id="NeuralNetworks-c">
     <!-- v-btn block class="primary">1</v-btn> -->
     <!-- class="ma-0 pa-0" -->
     <v-container fill-height fluid>
@@ -28,11 +28,11 @@
               <br>
               language model can learn the semantic meaning by predicting
               <br>
-              context words to cluster these embedding vectors.
+              masked contextual words to cluster the related embedding vectors.
               <br><br>
-              In the video is an example for Image Recognition. Popular techniques
+              In the video is an example for image recognition. Popular techniques
               <br>
-              in Computer Vision are Convolutional Networks, which process image
+              in computer vision are convolutional networks, which process image
               <br>
               features using convolutional filters.
               </p>
@@ -59,6 +59,15 @@
 ::v-deep .v-application--wrap {
   min-height: fit-content;
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #NeuralNetworks-c {
   position: relative;
   min-width: 100vw;
@@ -78,15 +87,26 @@
 }
 @media (max-width: 1400px) {
   #text {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1350px) {
+  #text {
     font-size: 18px;
   }
 }
-@media (max-width: 1264px) {
+@media (max-width: 1300px) {
+  #text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1263px) {
   #videocontainer {
     margin-top: -0.5%;
     padding-left: 0%;
   }
   #text {
+    font-size: 20px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 15%;
@@ -95,10 +115,13 @@
   }
 }
 @media (max-width: 600px) {
+  #NeuralNetworks-c {
+    min-height: 70vh;
+  }
   #text {
     font-size: 16px;
-    padding-top: 25%;
-    padding-bottom: 32%;
+    padding-top: 7%;
+    padding-bottom: 40%;
   }
 }
 @media (max-width: 400px) {

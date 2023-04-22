@@ -1,5 +1,5 @@
 <template>
-  <div id="Navigation-c">
+  <div class="noselect" id="Navigation-c">
     <div v-if="scrolledNav" v-show="!mobileView" class="box"></div>
     <ul class="topbar" v-if="!mobileView">
       <li :class="{ active: activeEntry == 'Entry-c' }" v-scroll-to="'#Entry-c'"><font-awesome-icon :class="{ active: activeEntry == 'Entry-c' }" id="up" icon="fa-solid fa-chevron-up" /></li>
@@ -94,6 +94,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #Navigation-c {
   position: fixed;
   z-index: 1;

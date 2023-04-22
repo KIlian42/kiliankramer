@@ -19,15 +19,18 @@ Vue.use(VueKinesis)
 // particles library
 import VueParticles from 'vue-particles';
 Vue.use(VueParticles)
+// Copy to clipboard
+// import VueClipboards from 'vue-clipboards'
+// Vue.use(VueClipboards)
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faVolumeHigh, faVolumeXmark, faChevronUp, faBars, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faXingSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faXingSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 /* add icons to the library */
-library.add(faVolumeHigh, faLinkedin, faXingSquare, faInstagram, faVolumeXmark, faChevronUp, faBars, faPaperPlane)
+library.add(faGithub, faVolumeHigh, faLinkedin, faXingSquare, faInstagram, faVolumeXmark, faChevronUp, faBars, faPaperPlane)
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

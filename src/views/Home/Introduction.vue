@@ -11,8 +11,8 @@
                 Have you already heard about 
                 <br v-if="showBreak1()">
                 Quantum Machine Learning?
-                <br>
-                Don't be afraid, it's still in it's infancy.
+                <!--<br>-->
+                <!--Don't be afraid, it's still in it's infancy.-->
                 <br><br><br v-if="showBreak2()">
                 Each day AI becomes more present.
                 <br>
@@ -22,11 +22,11 @@
                 <br><br><br v-if="showBreak2()">
                 If your team or business have innovative ideas,
                 <br>
-                but you lack with the necessary Know-How,
+                but you lag with the necessary Know-How,
                 <br>
-                I may help You as an experienced data scientist
+                I may help you as an experienced data scientist
                 <br>
-                and prospective AI expert to reach Your goals.
+                and prospective AI expert to reach your goals.
               </p>
             </div>
           </div>
@@ -70,12 +70,13 @@
 #Introduction-c {
   position: relative;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 40vh;
   background-color:#151515;
 }
 #text {
-  padding-top: 5%;
-  padding-bottom: 2%;
+  padding-top: 10%;
+  //padding-top: 5%;
+  //padding-bottom: 2%;
   text-align: center;
   color: white;
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
@@ -88,6 +89,9 @@
   }
 }
 @media (max-width: 600px) {
+  #Introduction-c {
+    min-height: 70vh;
+  }
   #text {
     //color: red;
     font-size: 16px;
@@ -103,7 +107,7 @@
 }
 @media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
   #text {
-    padding-top: 2%;
+    padding-top: 3.5%;
     padding-bottom: 3.5%;
     //color: yellow;
     font-size: 18px;

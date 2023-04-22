@@ -1,13 +1,13 @@
 <template>
-    <div id="Footer-c">
+    <div class="noselect" id="Footer-c">
       <div id="linkedinDiv">
         <a href="https://www.linkedin.com/in/kilian-kramer-7352b2235/"><font-awesome-icon id="linkedin" icon="fa-brands fa-linkedin" /></a>
       </div>
       <div id="xingDiv">
         <a href="https://www.xing.com/profile/Kilian_Kramer2/cv"><font-awesome-icon id="xing" icon="fa-brands fa-square-xing" /></a>
       </div>
-      <div id="instagramDiv">
-        <a href="https://www.instagram.com/kilian_kramer/"><font-awesome-icon id="instagram" icon="fa-brands fa-instagram" /></a>
+      <div id="githubDiv">
+        <a href="https://github.com/KIlian42?tab=repositories"><font-awesome-icon id="github" icon="fa-brands fa-github" /></a>
       </div>
       <!--
       <font-awesome-icon @click="mute" v-if="playmusic" id="volume" icon="fa-solid fa-volume-high" />
@@ -34,6 +34,15 @@
 </script>
 
 <style lang="scss" scoped>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #linkedinDiv {
   position: fixed;
   right: 65.5px;
@@ -80,7 +89,7 @@
   right: 20px;
   bottom: 20px;
 }
-#instagramDiv {
+#githubDiv {
   position: fixed;
   right: 115.5px;
   bottom: 15.5px; 
@@ -90,12 +99,12 @@
   opacity: 0.9;
   z-index: 2;
   &:hover {
-    #instagram {
+    #github {
       color: #434749;
     }
   }
 }
-#instagram {
+#github {
   width: 40px;
   height: 40px;
   color: white;
