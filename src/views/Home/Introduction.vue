@@ -1,26 +1,30 @@
 <template>
-  <v-app id="Introduction-c">
+  <v-app class="noselect" id="Introduction-c">
     <v-container fill-height fluid>
       <v-layout row justify-center align-center>
         <v-flex xs12 sm12 md12 lg12 xl12>
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="250" data-aos-once="true">
             <div id="text">
               <p>
-                Technology is evolving extremely fast.
+                Technology is evolving fast.
                 <br>
+                <!--
                 Have you already heard about 
                 <br v-if="showBreak1()">
                 Quantum Machine Learning?
+                -->
+
                 <!--<br>-->
                 <!--Don't be afraid, it's still in it's infancy.-->
-                <br><br><br v-if="showBreak2()">
+
+                <!--<br><br><br v-if="showBreak2()">-->
                 Each day AI becomes more present.
                 <br>
                 Sooner or later companies have to deal with
                 <br>
                 the topic "AI" to not lag behind in future.
                 <br><br><br v-if="showBreak2()">
-                If your team or business have innovative ideas,
+                If your team have innovative ideas,
                 <br>
                 but you lag with the necessary Know-How,
                 <br>
@@ -67,6 +71,15 @@
 ::v-deep .v-application--wrap {
   min-height: fit-content;
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #Introduction-c {
   position: relative;
   min-width: 100vw;
@@ -74,7 +87,7 @@
   background-color:#151515;
 }
 #text {
-  padding-top: 10%;
+  padding-top: 8%;
   //padding-top: 5%;
   //padding-bottom: 2%;
   text-align: center;
@@ -85,7 +98,7 @@
 }
 @media (max-width: 1264px) {
   #text {
-    padding-bottom: 8%;
+    padding-bottom: 10%;
   }
 }
 @media (max-width: 600px) {

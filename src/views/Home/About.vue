@@ -25,7 +25,7 @@
                 <br>
                 No matter what concerns you have: a small feature
                 <br>
-                or a large project, I may assist you as consultant
+                or a large project, I may consult you in your project
                 <br>
                 or will implement your application.
                 <br><br>
@@ -35,15 +35,15 @@
                 <br>
                 feature engineering, model selection, model engineering and fine-tuning.
                 <br>
-                My domain knowledge include natural language processing, computer vision,
+                My domain knowledge include <medium style="color:#1AA4F7;">natural language processing</medium>, <medium style="color:#1AA4F7;">computer vision</medium>,
                 <br>
-                recommender systems, planning systems, reinforcement learning and other.
+                <medium style="color:#1AAFF7;">recommender systems</medium>, <medium style="color:#1AA4F7;">planning systems</medium>, <medium style="color:#1AA4F7;">reinforcement learning</medium> and other.
                 <br>
-                Previous projects focused specifically on autonomous driving, medical
+                My previous projects focused on <a id="link" target=”_blank” href="https://maskor.fh-aachen.de/projects/ARTUS/">autonomous driving*</a>, <a id="link" target=”_blank” href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models">medical applications*</a>
                 <br>
-                applications and recommender systems.
+                and <a id="link" target=”_blank” href="https://next-audit.de/ki-im-audit/?_gl=1*7nv7at*_up*MQ..*_ga*NTIzOTc4MDQxLjE2ODIyNDE0ODY.*_ga_K2B0QB965W*MTY4MjI0MTQ4Ni4xLjEuMTY4MjI0MTUwOC4wLjAuMA..">recommender systems*</a>.
                 <br><br>
-                Send me an e-mail below to contact me.
+                Send me below an e-mail to contact me.
               </p>
             </div>
           </div>
@@ -78,11 +78,19 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+#link {
+  color: #1DC4D0;
+  text-decoration: none;
+  pointer: cursor;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
 #About-c {
   position: relative;
   min-width: 100vw;
   min-height: 80vh;
-  margin-top: -50px;
+  margin-top: -70px;
   background-color: #151515;
 }
 #imagecontainer {
@@ -129,8 +137,13 @@
 @media (max-width: 1080px) {
   #text {
     font-size: 14px;
-    padding-top: 20%;
+    padding-top: 5%;
     padding-left: 6%;
+  }
+  #imagecontainer {
+    img {
+      margin-top: 10%;
+    }
   }
 }
 @media (max-width: 960px) {
@@ -139,11 +152,16 @@
     padding-top: 15%;
     text-align: center;
   }
-    #imagecontainer {
+  #imagecontainer {
     img {
       width: 100%;
       margin: auto;
     }
+  }
+}
+@media (max-width: 960px) {
+  #text {
+    margin-top: -80px;
   }
 }
 @media (max-width: 750px) {
@@ -151,11 +169,22 @@
     font-size: 16px;
   }
 }
+@media (max-width: 650px) {
+  #text {
+    margin-top: -80px;
+  }
+  #imagecontainer {
+    img {
+      margin-top: -70px;
+    }
+  }
+}
 @media (max-width: 600px) {
   #imagecontainer {
     img {
       width: 100%;
       margin: auto;
+      margin-top: -70px;
     }
   }
   #text {
@@ -164,26 +193,37 @@
     padding-right: 0%;
   }
 }
+@media (max-width: 500px) {
+  #text {
+    margin-top: -50px;
+    font-size: 11px;
+  }
+  #imagecontainer {
+    img {
+      margin-top: -100px;
+    }
+  }
+}
 @media (max-width: 400px) {
   #About-c {
     min-height: 80vh;
   }
   #text {
-    margin-top: -5%;
+    margin-top: -8%;
     font-size: 10px;
     padding-left: 0%;
     padding-right: 0%;
   }
   #imagecontainer {
     img {
-      margin-top: -27%;;
+      margin-top: -1%;;
     }
   }
 }
 @media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
   #text {
     font-size: 18px;
-    padding-top: 5%;
+    padding-top: 13%;
     padding-bottom: 0%;
   }
   #imagecontainer {

@@ -1,5 +1,5 @@
 <template>
-    <div id="Entry-c">
+    <div class="noselect" id="Entry-c">
       <!-- <img src="../../assets/background.jpg" style="z-index:10;" width="100%" height="133%" />; -->
       <vue-particles color="#4BD0A8" style="height:100vh;z-index:100;"></vue-particles>
       <b><p id="typedtext" /></b>
@@ -19,6 +19,15 @@
 </script>
 
 <style lang="scss" scoped>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 #Entry-c {
   width: 100vw;
   height: 100vh;
@@ -53,9 +62,14 @@
 }
 @media (max-width: 400px) {
   #typedtext {
-    top: 45vh;
-    font-size: 35px;
-    left: 1vw;
+    top: 40vh;
+    font-size: 46px;
+    left: 4vw;
+  }
+}
+@media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
+  #typedtext {
+    left: 25vw;
   }
 }
 </style>

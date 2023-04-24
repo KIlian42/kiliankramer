@@ -34,7 +34,7 @@
               <br>
               in computer vision are convolutional networks, which process image
               <br>
-              features using convolutional filters.
+              features with convolutional filters.
               </p>
             </div>
           </div>
@@ -114,7 +114,13 @@
     text-align: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 1150px) {
+  #text {
+    padding-top: 7%;
+    margin-bottom: -20px;
+  }
+}
+@media (max-width: 650px) {
   #NeuralNetworks-c {
     min-height: 70vh;
   }
@@ -124,17 +130,26 @@
     padding-bottom: 40%;
   }
 }
+@media (max-width: 530px) {
+  #text {
+    font-size: 12px;
+  }
+}
 @media (max-width: 400px) {
   #text {
     font-size: 12px;
     padding-left: 0%;
     padding-right: 0%;
+    margin-top: -1%;
   }
 }
 @media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
+  #NeuralNetworks-c {
+    min-height: 80vh;
+  }
   #text {
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     font-size: 18px;
   }
 }
