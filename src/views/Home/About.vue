@@ -21,7 +21,7 @@
                 <br>
                 I have a bachelor degree in Business Informatics (B.Sc)
                 <br>
-                and will soon finish my master in Artificial Intelligence (M.Sc).
+                and I will soon finish my master in Artificial Intelligence (M.Sc).
                 <br>
                 No matter what concerns you have: a small feature
                 <br>
