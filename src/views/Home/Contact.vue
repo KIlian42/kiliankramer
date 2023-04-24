@@ -9,8 +9,8 @@
                 <div id="inner">
                   Send me an e-mail&nbsp;&nbsp;<font-awesome-icon icon="fa-solid fa-paper-plane" />:
                   <br>
-                  <a href="mailto:kiliankramer16@gmail.com">
-                    kiliankramer16@gmail.com
+                  <a href="mailto:contact@kiliankramer.com">
+                    contact@kiliankramer.com
                   </a>
                 </div>
               </div>
