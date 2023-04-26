@@ -22,7 +22,7 @@
                 <br>
                 Sooner or later companies have to deal with
                 <br>
-                the topic "AI" to not lag behind in future.
+                the topic "AI" to not lag behind in the future.
                 <br><br><br v-if="showBreak2()">
                 If your team have innovative ideas,
                 <br>
