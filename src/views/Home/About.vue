@@ -15,7 +15,7 @@
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
             <div id="text">
               <p> 
-                Hi, I am Kilian Kramer and I am full-stack developer.
+                Hi, I am Kilian Kramer and I am a full-stack developer.
                 <br><br>
                 I build innovative software and design websites.
                 <br>
@@ -29,21 +29,21 @@
                 <br>
                 or will implement your application.
                 <br><br>
-                While building your individual machine learning model I will share my
+                While building your individual machine learning model, I will share my
                 <br>
                 experience in data labeling, data pre-processing, data augmentation,
                 <br>
                 feature engineering, model selection, model engineering and fine-tuning.
                 <br>
-                My domain knowledge include <medium style="color:#1AA4F7;">natural language processing</medium>, <medium style="color:#1AA4F7;">computer vision</medium>,
+                My skills include <medium style="color:#1AA4F7;">natural language processing</medium>, <medium style="color:#1AA4F7;">computer vision</medium>, <medium style="color:#1AAFF7;">recommender</medium>
                 <br>
-                <medium style="color:#1AAFF7;">recommender systems</medium>, <medium style="color:#1AA4F7;">planning systems</medium>, <medium style="color:#1AA4F7;">reinforcement learning</medium> and other.
+                <medium style="color:#1AAFF7;">systems</medium>, <medium style="color:#1AA4F7;">planning systems</medium>, <medium style="color:#1AA4F7;">reinforcement learning</medium> and more. My previous
                 <br>
-                My previous projects focused on <a id="link" target=”_blank” href="https://maskor.fh-aachen.de/projects/ARTUS/">autonomous driving*</a>, <a id="link" target=”_blank” href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models">medical applications*</a>
+                projects were focused on <a id="link" target=”_blank” href="https://maskor.fh-aachen.de/projects/ARTUS/">autonomous driving*</a>, <a id="link" target=”_blank” href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models">medical applications*</a> and
                 <br>
-                and <a id="link" target=”_blank” href="https://next-audit.de/ki-im-audit/?_gl=1*7nv7at*_up*MQ..*_ga*NTIzOTc4MDQxLjE2ODIyNDE0ODY.*_ga_K2B0QB965W*MTY4MjI0MTQ4Ni4xLjEuMTY4MjI0MTUwOC4wLjAuMA..">recommender systems*</a>.
+                <a id="link" target=”_blank” href="https://next-audit.de/ki-im-audit/?_gl=1*7nv7at*_up*MQ..*_ga*NTIzOTc4MDQxLjE2ODIyNDE0ODY.*_ga_K2B0QB965W*MTY4MjI0MTQ4Ni4xLjEuMTY4MjI0MTUwOC4wLjAuMA..">recommender systems*</a>.
                 <br><br>
-                Send me below an e-mail to contact me.
+                Send me an e-mail to contact me. <font-awesome-icon style="width:11px;margin-bottom:-2px;" icon="fa-solid fa-arrow-down" />
               </p>
             </div>
           </div>

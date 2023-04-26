@@ -18,11 +18,11 @@
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
             <div id="text">
               <p>
-              Neural networks are capable to learn any pattern,
+              Neural networks are capable of learning any pattern,
               <br>
               however every data needs pre-processing.
               <br><br>
-              For instance, text (words) are in Chat-GPT encoded as vectors,
+              For instance, texts (words) are encoded in Chat-GPT as vectors,
               <br>
               so called embeddings. Through context-based training the
               <br>

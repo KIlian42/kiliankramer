@@ -1,7 +1,7 @@
 <template>
     <div class="noselect" id="Footer-c">
       <div id="emailDiv">
-        <a target=”_blank” v-scroll-to="'#Contact-c'" href="https://www.linkedin.com/in/kilian-kramer-7352b2235/"><font-awesome-icon id="email" icon="fa-solig fa-envelope" /></a>
+        <a target=”_blank” v-scroll-to="'#Contact-c'" href="https://www.linkedin.com/in/kilian-kramer-7352b2235/"><font-awesome-icon id="email" icon="fa-solid fa-envelope" /></a>
       </div>
       <div id="linkedinDiv">
         <a target=”_blank” href="https://www.linkedin.com/in/kilian-kramer-7352b2235/"><font-awesome-icon id="linkedin" icon="fa-brands fa-linkedin" /></a>

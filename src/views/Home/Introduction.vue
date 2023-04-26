@@ -26,7 +26,7 @@
                 <br><br><br v-if="showBreak2()">
                 If your team have innovative ideas,
                 <br>
-                but you lag with the necessary Know-How,
+                but you do not posess the necessary know-how,
                 <br>
                 I may help you as an experienced data scientist
                 <br>

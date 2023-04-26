@@ -7,7 +7,7 @@
             <center>
               <div id="box">
                 <div id="inner">
-                  Send me an e-mail&nbsp;&nbsp;<font-awesome-icon icon="fa-solid fa-paper-plane" />:
+                  Send me an e-mail&nbsp;&nbsp;<font-awesome-icon icon="fa-solid fa-envelope" />:
                   <br>
                   <a href="mailto:contact@kiliankramer.com">
                     contact@kiliankramer.com
