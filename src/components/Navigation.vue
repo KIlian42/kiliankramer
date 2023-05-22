@@ -116,7 +116,7 @@ export default {
   border-bottom: solid white;
   background-color: #151515;
   background-size: cover;
-  height: 7%;
+  height: 49px;
   width: 100%;
   opacity: 0.85;
 }

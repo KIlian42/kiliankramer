@@ -24,11 +24,11 @@
                 <br>
                 the topic "AI" to not lag behind in the future.
                 <br><br><br v-if="showBreak2()">
-                If your team have innovative ideas,
+                If your team has innovative ideas,
                 <br>
                 but you do not posess the necessary know-how,
                 <br>
-                I may help you as an experienced data scientist
+                I may help you as a graduated data scientist
                 <br>
                 and prospective AI expert to reach your goals.
               </p>

@@ -28,7 +28,7 @@
               <br>
               language model can learn the semantic meaning by predicting
               <br>
-              masked contextual words to cluster the related embedding vectors.
+              masked contextual words to cluster the related word vectors.
               <br><br>
               In the video is an example for image recognition. Popular techniques
               <br>
