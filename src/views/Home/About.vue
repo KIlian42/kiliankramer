@@ -42,7 +42,7 @@
           >
             <div id="text">
               <p>
-                Hi, I am Kilian Kramer and I am a full-stack developer.
+                Hi, my name is Kilian Kramer and I am a full-stack developer.
                 <br /><br />
                 I build innovative software and design websites.
                 <br />
