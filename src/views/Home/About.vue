@@ -90,7 +90,6 @@
                   >natural language processing</a
                 >
                 and
-                <br />
                 <a
                   id="link"
                   target="”_blank”"
