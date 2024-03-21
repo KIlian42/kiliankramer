@@ -3,38 +3,71 @@
     <!-- v-btn block class="primary">1</v-btn> -->
     <!-- class="ma-0 pa-0" -->
     <v-container fill-height fluid>
-      <v-layout row wrap justify-center align-xs-start align-sm-start align-md-start align-lg-center align-xl-center style="height:103%;">
+      <v-layout
+        row
+        wrap
+        justify-center
+        align-xs-start
+        align-sm-start
+        align-md-start
+        align-lg-center
+        align-xl-center
+        style="height: 103%"
+      >
         <v-flex xs12 sm12 md12 lg6 xl6>
-          <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in"
+            data-aos-delay="200"
+            data-aos-once="true"
+          >
             <div id="videocontainer">
               <!-- <img src="../../assets/logo.png" style="border-radius:15px;margin-top:4px" width="100%" height="100%" /> -->
-              <video controls width="100%" height="100%" playsinline autoplay loop muted>
-                <source src="../../assets/NeuralNetworkSimulation.mp4" type="video/mp4" />
+              <video
+                controls
+                width="100%"
+                height="100%"
+                playsinline
+                autoplay
+                loop
+                muted
+              >
+                <source
+                  src="../../assets/NeuralNetworkSimulation.mp4"
+                  type="video/mp4"
+                />
               </video>
             </div>
           </div>
         </v-flex>
         <v-flex xs12 sm12 md12 lg6 xl6>
-          <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in"
+            data-aos-delay="200"
+            data-aos-once="true"
+          >
             <div id="text">
               <p>
-              Neural networks are capable of learning any pattern,
-              <br>
-              however every data needs pre-processing.
-              <br><br>
-              For instance, texts (words) are encoded in Chat-GPT as vectors,
-              <br>
-              so called embeddings. Through context-based training the
-              <br>
-              language model can learn the semantic meaning by predicting
-              <br>
-              masked contextual words to cluster the related word vectors.
-              <br><br>
-              In the video is an example for image recognition. Popular techniques
-              <br>
-              in computer vision are convolutional networks, which process image
-              <br>
-              features with convolutional filters.
+                Neural networks are capable of learning any pattern,
+                <br />
+                however every data needs pre-processing.
+                <br /><br />
+                For instance, texts (words) are encoded in Chat-GPT as vectors,
+                <br />
+                so called embeddings. Through context-based training the
+                <br />
+                language model can learn the semantic relations by predicting
+                <br />
+                masked contextual words to cluster the related word vectors.
+                <br /><br />
+                In the video is an example for image recognition. Popular
+                techniques
+                <br />
+                in computer vision are convolutional networks, which process
+                image
+                <br />
+                features with convolutional filters.
               </p>
             </div>
           </div>
@@ -45,15 +78,11 @@
 </template>
 
 <script>
-  export default {
-    name: "NeuralNetworks-c",
-    data: () => ({
-
-    }),
-    methods: {
-
-    }
-  }
+export default {
+  name: "NeuralNetworks-c",
+  data: () => ({}),
+  methods: {},
+};
 </script>
 <style lang="scss" scoped>
 ::v-deep .v-application--wrap {
@@ -61,18 +90,18 @@
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 #NeuralNetworks-c {
   position: relative;
   min-width: 100vw;
   min-height: 100vh;
-  background-color:#151515;
+  background-color: #151515;
 }
 #videocontainer {
   padding-left: 5%;
@@ -81,7 +110,8 @@
   text-align: left;
   padding-left: 4%;
   color: white;
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Tahoma, sans-serif;
   font-size: 20px;
   line-height: 160%;
 }
@@ -143,7 +173,7 @@
     margin-top: -1%;
   }
 }
-@media screen and (orientation:landscape) and (max-width: 850px) and (max-height: 450px)  {
+@media screen and (orientation: landscape) and (max-width: 850px) and (max-height: 450px) {
   #NeuralNetworks-c {
     min-height: 80vh;
   }
