@@ -42,25 +42,17 @@
           >
             <div id="text">
               <p>
-                Hi, my name is Kilian Kramer and I am a full-stack developer.
+                Hi, my name is Kilian Kramer and I am passionate AI engineer.
                 <br /><br />
-                I build innovative software and design websites.
+                I will soon finish a master degree (M.Sc) in Artificial
+                Intelligence
                 <br />
-                I have a bachelor degree in Business Informatics (B.Sc)
-                <br />
-                and I will soon finish my master in Artificial Intelligence
-                (M.Sc).
-                <br />
-                No matter what concerns you have: a small feature
-                <br />
-                or a large project, I may consult you in your project
-                <br />
-                or will implement your application.
+                at the University of Maastricht.
                 <br /><br />
-                While building your individual machine learning model, I will
+                While developing your individual machine learning model, I will
                 share my
                 <br />
-                experience with, data creation, data augmentation,
+                experience with AI concepts, data creation, data augmentation,
                 <br />
                 model selection, engineering, fine-tuning and cloud hardware
                 (GPUs).
@@ -96,7 +88,10 @@
                   href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
                   >medical applications*</a
                 >. <br /><br />
-                Send me an e-mail to contact me.
+                No matter what concerns you have, I may help you making your
+                idea become reality.
+                <br /><br />
+                Send me an e-mail.
                 <font-awesome-icon
                   style="width: 11px; margin-bottom: -2px"
                   icon="fa-solid fa-arrow-down"
