@@ -24,11 +24,11 @@
       <transition name="mobile-nav">
         <ul v-show="mobileNav">
           <br />
-          <li :class="{ activeS: activeEntry == 'Entry-c' }" v-scroll-to="'#Entry-c'">Top</li>
-          <li :class="{ activeS: activeEntry == 'Introduction-c' }" v-scroll-to="'#Introduction-c'">Intro</li>
-          <li :class="{ activeS: activeEntry == 'NeuralNetworks-c' }" v-scroll-to="'#NeuralNetworks-c'">AI</li>
-          <li :class="{ activeS: activeEntry == 'About-c' }" v-scroll-to="'#About-c'">About</li>
-          <li :class="{ activeS: activeEntry == 'Contact-c' }" v-scroll-to="'#Contact-c'">Contact</li>
+          <li :class="{ activeS: activeEntry == 'Entry-c' }" v-scroll-to="'#Entry-c'">•Top</li>
+          <li :class="{ activeS: activeEntry == 'Introduction-c' }" v-scroll-to="'#Introduction-c'">•Intro</li>
+          <li :class="{ activeS: activeEntry == 'NeuralNetworks-c' }" v-scroll-to="'#NeuralNetworks-c'">•AI</li>
+          <li :class="{ activeS: activeEntry == 'About-c' }" v-scroll-to="'#About-c'">•About</li>
+          <li :class="{ activeS: activeEntry == 'Contact-c' }" v-scroll-to="'#Contact-c'">•Contact</li>
         </ul>
       </transition>
     </div>
@@ -186,12 +186,20 @@ export default {
 }
 
 .sidebar {
+  text-decoration: none;
   position: absolute;
-  padding: 30px;
+  padding-left: 30px;
+  margin-top: -30px;
   cursor: pointer;
   color: white;
-
+  ul {
+    margin-left: -30px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-image: url("../assets/logo.png");
+  }
   li {
+    padding-left: 20px;
     padding-top: 10px;
   }
   .mobile-nav-enter-active,

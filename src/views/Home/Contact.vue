@@ -3,12 +3,15 @@
     <v-container fill-height fluid>
       <v-layout row justify-center align-center>
         <v-flex xs12 sm12 md12 lg12 xl12>
-          <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-delay="200" data-aos-once="true">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in"
+            data-aos-delay="200"
+            data-aos-once="true"
+          >
             <center>
               <div id="box">
                 <div id="inner">
-                  Send me an e-mail&nbsp;&nbsp;<font-awesome-icon icon="fa-solid fa-envelope" />:
-                  <br>
                   <a href="mailto:contact@kiliankramer.com">
                     contact@kiliankramer.com
                   </a>
@@ -68,7 +71,7 @@ export default {
 }
 
 a:link {
-  color: #1DC4D0;
+  color: #1dc4d0;
   font-size: 24px;
   text-decoration: none;
   pointer: cursor;

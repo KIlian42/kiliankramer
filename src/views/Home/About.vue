@@ -52,10 +52,9 @@
                 While developing your individual machine learning model, I will
                 share my
                 <br />
-                experience with AI concepts, data creation, data augmentation,
-                <br />
-                model selection, engineering, fine-tuning and cloud hardware
-                (GPUs).
+                knowledge with general AI concepts and experience in data
+                creation, data augmentation, model selection, engineering,
+                fine-tuning and cloud hardware.
                 <br />
                 My skills include
                 <medium style="color: #1aa4f7"
@@ -79,7 +78,7 @@
                   id="link"
                   target="”_blank”"
                   href="https://next-audit.de/kira/"
-                  >natural language processing</a
+                  >natural language processing*</a
                 >
                 and
                 <a
@@ -88,8 +87,8 @@
                   href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
                   >medical applications*</a
                 >. <br /><br />
-                No matter what concerns you have, I may help you making your
-                idea become reality.
+                No matter what concerns you have, I may help you developing your
+                idea.
                 <br /><br />
                 Send me an e-mail.
                 <font-awesome-icon

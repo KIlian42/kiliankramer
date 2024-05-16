@@ -63,7 +63,7 @@
 @media (max-width: 400px) {
   #typedtext {
     top: 40vh;
-    font-size: 46px;
+    font-size: 40px;
     left: 4vw;
   }
 }
