@@ -51,12 +51,11 @@
                 include model selection and development, fine-tuning, hardware
                 requirements and data organisation, such as collecting,
                 preparing, examining, visualizing and augmenting data. My
-                interests do not only focus on developing models for
-                interesting, e.g. natural language processing and medical
-                applications, but also improving them mathematically and
-                therefore making AI more sustainable with regard to large
-                computing impacts. Below are some references to previous
-                projects:<br />
+                research do not only focus on developing models for interesting,
+                e.g. medical applications, but also improving them
+                mathematically and therefore making AI more sustainable with
+                regard to large computing impacts. Below are some references to
+                previous projects:<br />
                 ->
                 <a
                   id="link"
@@ -143,8 +142,8 @@ export default {
 }
 #text {
   text-align: justify;
-  padding-top: 6%;
-  padding-left: 24%;
+  padding-top: 8%;
+  padding-left: 22%;
   padding-right: 15%;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -154,7 +153,7 @@ export default {
 }
 #text2 {
   text-align: justify;
-  padding-left: 24%;
+  padding-left: 22%;
   padding-right: 0%;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -171,6 +170,10 @@ export default {
     padding-left: 10%;
     font-size: 18px;
   }
+  #text2 {
+    padding-left: 10%;
+    font-size: 18px;
+  }
   #imagecontainer {
     img {
       margin-top: 15%;
@@ -179,8 +182,11 @@ export default {
 }
 @media (max-width: 1220px) {
   #text {
-    font-size: 17px;
     padding-top: 20%;
+    padding-left: 6%;
+    font-size: 17px;
+  }
+  #text2 {
     padding-left: 6%;
     font-size: 17px;
   }
@@ -196,6 +202,10 @@ export default {
     padding-top: 5%;
     padding-left: 6%;
   }
+  #text2 {
+    padding-left: 6%;
+    font-size: 14px;
+  }
   #imagecontainer {
     img {
       margin-top: 10%;
@@ -207,6 +217,10 @@ export default {
     font-size: 20px;
     padding-top: 15%;
     text-align: center;
+  }
+  #text2 {
+    text-align: center;
+    font-size: 20px;
   }
   #imagecontainer {
     img {
@@ -222,6 +236,9 @@ export default {
 }
 @media (max-width: 750px) {
   #text {
+    font-size: 16px;
+  }
+  #text2 {
     font-size: 16px;
   }
 }
@@ -248,10 +265,16 @@ export default {
     padding-left: 0%;
     padding-right: 0%;
   }
+  #text2 {
+    font-size: 14px;
+  }
 }
 @media (max-width: 500px) {
   #text {
     margin-top: -50px;
+    font-size: 11px;
+  }
+  #text2 {
     font-size: 11px;
   }
   #imagecontainer {
@@ -270,6 +293,11 @@ export default {
     padding-left: 0%;
     padding-right: 0%;
   }
+  #text2 {
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 10px;
+  }
   #imagecontainer {
     img {
       margin-top: -1%;
@@ -281,6 +309,9 @@ export default {
     font-size: 18px;
     padding-top: 13%;
     padding-bottom: 0%;
+  }
+  #text2 {
+    font-size: 18px;
   }
   #imagecontainer {
     img {

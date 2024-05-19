@@ -74,7 +74,7 @@ export default {
   height: 40px;
   color: white;
   position: fixed;
-  right: 172px;
+  right: 75px;
   bottom: 20px;
 }
 #githubDiv {
@@ -97,12 +97,12 @@ export default {
   height: 40px;
   color: white;
   position: fixed;
-  right: 70px;
+  left: 20px;
   bottom: 20px;
 }
 #linkedinDiv {
   position: fixed;
-  right: 65.5px;
+  right: 15.5px;
   bottom: 15.5px;
   width: 50px;
   height: 50px;
@@ -120,7 +120,7 @@ export default {
   height: 40px;
   color: white;
   position: fixed;
-  right: 120px;
+  right: 20px;
   bottom: 20px;
 }
 </style>
