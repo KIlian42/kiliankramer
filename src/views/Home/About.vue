@@ -49,13 +49,13 @@
                 In particular I have expertise in natural language processing,
                 computer vision, planning and recommender systems. My experience
                 include model selection and development, fine-tuning, hardware
-                requirements and data organisation, such as collecting,
-                preparing, examining, visualising and augmenting data. My
-                research is not limited to the model development for interesting
-                (e.g. medical) applications, but also improving these models
-                mathematically and making them more sustainable with regard to
-                evolving computing impacts. Below are some references to
-                previous projects:<br />
+                requirements and data organisation, e.g. collecting, preparing,
+                examining, visualising and augmenting data. My research isn't
+                limited to developing models for interesting applications (such
+                as the medical area), but also to improving these models
+                mathematically and making them more sustainable, taking into
+                account the evolving impact of computing. Below are some
+                references to previous projects:<br />
                 ->
                 <a
                   id="link"
