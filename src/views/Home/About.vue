@@ -46,17 +46,17 @@
                 <br />I will soon finish a 2 1/2 years Master's programme (M.Sc)
                 in Artificial Intelligence at the University of Maastricht.
                 <br /><br />
-                In AI in particular, I have experience with natural language
-                processing, computer vision, planning and recommender systems.
-                My experience include model selection and development,
-                fine-tuning, hardware requirements and data organization, for
-                example collecting, preparing, examining, visualizing and
-                augmenting data. My interests do not only focus on developing
-                models for interesting (i.e. natural language understanding and
-                medical) applications, but also improving them mathematically
-                and thus making AI more sustainable with regard to large
-                computing impacts. Below are some references to my previous
-                projects given:<br />
+                In have particular expertise in natural language processing,
+                computer vision, planning and recommender systems. My experience
+                include model selection and development, fine-tuning, hardware
+                requirements and data organisation, such as collecting,
+                preparing, examining, visualizing and augmenting data. My
+                interests do not only focus on developing models for
+                interesting, e.g. natural language processing and medical
+                applications, but also improving them mathematically and
+                therefore making AI more sustainable with regard to large
+                computing impacts. Below are some references to previous
+                projects:<br />
                 ->
                 <a
                   id="link"

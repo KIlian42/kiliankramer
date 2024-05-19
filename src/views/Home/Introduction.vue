@@ -10,7 +10,7 @@
             data-aos-once="true"
           >
             <div id="text">
-              <p>I like to research on cutting edge AI.</p>
+              <p>I research on cutting edge AI.</p>
             </div>
           </div>
         </v-flex>
