@@ -49,24 +49,14 @@
           >
             <div id="text">
               <p>
-                Neural networks are capable of learning any pattern,
-                <br />
-                however every data needs pre-processing.
-                <br /><br />
-                For instance, texts (words) are encoded in Chat-GPT as vectors,
-                <br />
-                so called embeddings. Through context-based training the
-                <br />
-                language model can learn the semantic relations by predicting
-                <br />
-                masked contextual words to cluster the related word vectors.
-                <br /><br />
-                In the video is an example for image recognition. Popular
-                techniques
-                <br />
-                in computer vision are convolutional networks, which process
-                image
-                <br />
+                Neural networks are capable of learning any pattern, however
+                every data needs pre-processing. <br /><br />For instance, texts
+                (words) are encoded in Chat-GPT as vectors, so called
+                embeddings. Through context-based training the language model
+                can learn the semantic relations by predicting masked contextual
+                words to cluster the related word vectors. <br /><br />In the
+                video is an example for image recognition. Special models for
+                computer vision are convolutional networks, which process image
                 features with convolutional filters.
               </p>
             </div>
@@ -107,11 +97,12 @@ export default {
   padding-left: 5%;
 }
 #text {
-  text-align: left;
+  text-align: justify;
   padding-left: 4%;
+  padding-right: 20%;
   color: white;
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-    Tahoma, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   line-height: 160%;
 }

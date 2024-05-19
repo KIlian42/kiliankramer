@@ -50,11 +50,11 @@
                 computer vision, planning and recommender systems. My experience
                 include model selection and development, fine-tuning, hardware
                 requirements and data organisation, such as collecting,
-                preparing, examining, visualizing and augmenting data. My
-                research do not only focus on developing models for interesting,
-                e.g. medical applications, but also improving them
-                mathematically and therefore making AI more sustainable with
-                regard to large computing impacts. Below are some references to
+                preparing, examining, visualising and augmenting data. My
+                research is not limited to develop models for interesting (for
+                example medical) applications, but also improving the models
+                mathematically and designing these more sustainable with regard
+                to evolving computing impacts. Below are some references to
                 previous projects:<br />
                 ->
                 <a
@@ -135,7 +135,7 @@ export default {
 }
 #imagecontainer {
   img {
-    margin-left: -20%;
+    margin-left: -35%;
     margin-top: 8%;
     width: 68%;
   }
