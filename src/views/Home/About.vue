@@ -46,7 +46,7 @@
                 <br />I will soon finish a 2 1/2 years Master's programme (M.Sc)
                 in Artificial Intelligence at the University of Maastricht.
                 <br /><br />
-                I have particular expertise in natural language processing,
+                In particular I have expertise in natural language processing,
                 computer vision, planning and recommender systems. My experience
                 include model selection and development, fine-tuning, hardware
                 requirements and data organisation, such as collecting,
@@ -86,8 +86,7 @@
               </div>
             </div>
             <div id="text2">
-              If you would like to get in touch with me, please send me an
-              e-mail.
+              If you would like to get to know me, please send me an e-mail.
             </div>
           </div>
         </v-flex>
