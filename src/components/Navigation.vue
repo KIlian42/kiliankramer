@@ -2,11 +2,40 @@
   <div class="noselect" id="Navigation-c">
     <div v-if="scrolledNav" v-show="!mobileView" class="box"></div>
     <ul class="topbar" v-if="!mobileView">
-      <li :class="{ active: activeEntry == 'Entry-c' }" v-scroll-to="'#Entry-c'"><font-awesome-icon :class="{ active: activeEntry == 'Entry-c' }" id="up" icon="fa-solid fa-chevron-up" /></li>
-      <li :class="{ active: activeEntry == 'Introduction-c' }" v-scroll-to="'#Introduction-c'"><p>Intro</p></li>
-      <li :class="{ active: activeEntry == 'NeuralNetworks-c' }" v-scroll-to="'#NeuralNetworks-c'"><p>AI</p></li>
-      <li :class="{ active: activeEntry == 'About-c' }" v-scroll-to="'#About-c'"><p>About</p></li>
-      <li :class="{ active: activeEntry == 'Contact-c' }" v-scroll-to="'#Contact-c'"><p>Contact</p></li>
+      <li
+        :class="{ active: activeEntry == 'Entry-c' }"
+        v-scroll-to="'#Entry-c'"
+      >
+        <font-awesome-icon
+          :class="{ active: activeEntry == 'Entry-c' }"
+          id="up"
+          icon="fa-solid fa-chevron-up"
+        />
+      </li>
+      <li
+        :class="{ active: activeEntry == 'Introduction-c' }"
+        v-scroll-to="'#Introduction-c'"
+      >
+        <p>Intro</p>
+      </li>
+      <li
+        :class="{ active: activeEntry == 'NeuralNetworks-c' }"
+        v-scroll-to="'#NeuralNetworks-c'"
+      >
+        <p>AI</p>
+      </li>
+      <li
+        :class="{ active: activeEntry == 'About-c' }"
+        v-scroll-to="'#About-c'"
+      >
+        <p>About</p>
+      </li>
+      <li
+        :class="{ active: activeEntry == 'Contact-c' }"
+        v-scroll-to="'#Contact-c'"
+      >
+        <p>Contact</p>
+      </li>
     </ul>
     <div class="burger-menu-icon" v-show="mobileView">
       <i
@@ -24,11 +53,36 @@
       <transition name="mobile-nav">
         <ul v-show="mobileNav">
           <br />
-          <li :class="{ activeS: activeEntry == 'Entry-c' }" v-scroll-to="'#Entry-c'">•Top</li>
-          <li :class="{ activeS: activeEntry == 'Introduction-c' }" v-scroll-to="'#Introduction-c'">•Intro</li>
-          <li :class="{ activeS: activeEntry == 'NeuralNetworks-c' }" v-scroll-to="'#NeuralNetworks-c'">•AI</li>
-          <li :class="{ activeS: activeEntry == 'About-c' }" v-scroll-to="'#About-c'">•About</li>
-          <li :class="{ activeS: activeEntry == 'Contact-c' }" v-scroll-to="'#Contact-c'">•Contact</li>
+          <li
+            :class="{ activeS: activeEntry == 'Entry-c' }"
+            v-scroll-to="'#Entry-c'"
+          >
+            •Top
+          </li>
+          <li
+            :class="{ activeS: activeEntry == 'Introduction-c' }"
+            v-scroll-to="'#Introduction-c'"
+          >
+            •Intro
+          </li>
+          <li
+            :class="{ activeS: activeEntry == 'NeuralNetworks-c' }"
+            v-scroll-to="'#NeuralNetworks-c'"
+          >
+            •AI
+          </li>
+          <li
+            :class="{ activeS: activeEntry == 'About-c' }"
+            v-scroll-to="'#About-c'"
+          >
+            •About
+          </li>
+          <li
+            :class="{ activeS: activeEntry == 'Contact-c' }"
+            v-scroll-to="'#Contact-c'"
+          >
+            •Contact
+          </li>
         </ul>
       </transition>
     </div>
@@ -39,7 +93,7 @@
 export default {
   name: "Navigation-c",
   data: () => ({
-    activeEntry: '',
+    activeEntry: "",
     observer: null,
     scrolledNav: null,
     mobileNav: false,
@@ -55,58 +109,50 @@ export default {
     },
     toggleMobileNav() {
       this.mobileNav = !this.mobileNav;
-    }
+    },
   },
-  updated() {
-
-  },
-  watch: {
-
-  },
+  updated() {},
+  watch: {},
   mounted() {
     this.observer = new IntersectionObserver(
-      (entries) => { // arrow function!
+      (entries) => {
+        // arrow function!
         const active = entries.filter((e) => e.isIntersecting);
         if (active.length) {
-          this.activeEntry = active[0].target.childNodes[0].id
-          console.log(this.activeEntry)
+          this.activeEntry = active[0].target.childNodes[0].id;
+          console.log(this.activeEntry);
         }
       },
       { threshold: [0.5] }
-    )
+    );
     // loop over components
     const matches = document.querySelectorAll("section.box");
     for (let i = 0; i < matches.length; i++) {
       this.observer.observe(matches[i]);
     }
-    window.addEventListener('scroll', this.updateScroll)
+    window.addEventListener("scroll", this.updateScroll);
   },
-  computed: { 
-    
-  },
-  created() {
-
-  },
-  props: [
-    "mobileView"
-  ]
+  computed: {},
+  created() {},
+  props: ["mobileView"],
 };
 </script>
 
 <style lang="scss" scoped>
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 #Navigation-c {
   position: fixed;
   z-index: 1;
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Tahoma, sans-serif;
   font-size: 20px;
 }
 .box {
@@ -120,22 +166,22 @@ export default {
   width: 100%;
   opacity: 0.85;
 }
-.topbar { 
-    margin: 12px 25vw;
-    float: left;
-    width: 100%;
-    li {
-      list-style-type: none;
-      display: inline;
-      display: inline-block;
-      padding-left: 40px;
-      color: white;
-      cursor: pointer;
-      :hover {
-          color:#BDCDD8;
-          opacity: 1;
-          transform: scale(1.05);
-      }
+.topbar {
+  margin: 12px 25vw;
+  float: left;
+  width: 100%;
+  li {
+    list-style-type: none;
+    display: inline;
+    display: inline-block;
+    padding-left: 40px;
+    color: white;
+    cursor: pointer;
+    :hover {
+      color: #bdcdd8;
+      opacity: 1;
+      transform: scale(1.05);
+    }
   }
 }
 
@@ -147,8 +193,8 @@ export default {
   z-index: 1;
   margin-bottom: -3px;
   :hover {
-      opacity: 1;
-      transform: scale(1.05);
+    opacity: 1;
+    transform: scale(1.05);
   }
 }
 
@@ -157,7 +203,7 @@ export default {
 }
 
 .activeS {
-  color: #BDCDD8;
+  color: #bdcdd8;
 }
 
 .burger-menu-icon {
@@ -191,12 +237,12 @@ export default {
   padding-left: 30px;
   margin-top: -30px;
   cursor: pointer;
-  color: white;
   ul {
+    color: black;
     margin-left: -30px;
     padding-right: 20px;
     padding-bottom: 5px;
-    background-image: url("../assets/logo.png");
+    background-color: rgba(255, 255, 255, 0.5);
   }
   li {
     padding-left: 20px;

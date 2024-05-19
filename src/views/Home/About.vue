@@ -41,61 +41,54 @@
             data-aos-once="true"
           >
             <div id="text">
-              <p>
-                Hi, my name is Kilian Kramer and I am passionate AI engineer.
+              <div class="block-text">
+                My name is Kilian Kramer and I am passionate AI engineer.
+                <br />I will soon finish a 2 1/2 years Master's programme (M.Sc)
+                in Artificial Intelligence at the University of Maastricht.
                 <br /><br />
-                I will soon finish a master degree (M.Sc) in Artificial
-                Intelligence
-                <br />
-                at the University of Maastricht.
-                <br /><br />
-                While developing your individual machine learning model, I will
-                share my
-                <br />
-                knowledge with general AI concepts and experience in data
-                creation, data augmentation, model selection, engineering,
-                fine-tuning and cloud hardware.
-                <br />
-                My skills include
-                <medium style="color: #1aa4f7"
-                  >natural language processing</medium
-                >, <medium style="color: #1aa4f7">computer vision</medium>,
-                <medium style="color: #1aaff7">recommender</medium>
-                <br />
-                <medium style="color: #1aaff7">systems</medium>,
-                <medium style="color: #1aa4f7">planning systems</medium>,
-                <medium style="color: #1aa4f7">reinforcement learning</medium>
-                and more. My previous
-                <br />
-                projects were focused on
+                In AI in particular, I have experience with natural language
+                processing, computer vision, planning and recommender systems.
+                My experience include model selection and development,
+                fine-tuning, hardware requirements and data organization, for
+                example collecting, preparing, examining, visualizing and
+                augmenting data. My interests do not only focus on developing
+                models for interesting (i.e. natural language understanding and
+                medical) applications, but also improving them mathematically
+                and thus making AI more sustainable with regard to large
+                computing impacts. Below are some references to my previous
+                projects given:<br />
+                ->
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://maskor.fh-aachen.de/projects/ARTUS/"
-                  >autonomous driving*</a
+                  >ARTUS (autonomous driving)</a
                 >,
                 <a
                   id="link"
                   target="”_blank”"
+                  href="https://github.com/KIlian42/HTN-planning-under-resource-and-time-constraints-in-hybrid-mines"
+                  >(Git)</a
+                ><br />
+                ->
+                <a
+                  id="link"
+                  target="”_blank”"
                   href="https://next-audit.de/kira/"
-                  >natural language processing*</a
-                >
-                and
+                  >KIRA (natural language processing)</a
+                ><br />
+                ->
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
-                  >medical applications*</a
-                >. <br /><br />
-                No matter what concerns you have, I may help you developing your
-                idea.
-                <br /><br />
-                Send me an e-mail.
-                <font-awesome-icon
-                  style="width: 11px; margin-bottom: -2px"
-                  icon="fa-solid fa-arrow-down"
-                />
-              </p>
+                  >Master Thesis (ECG classification)</a
+                ><br /><br />
+              </div>
+            </div>
+            <div id="text2">
+              If you would like to get in touch with me, please send me an
+              e-mail.
             </div>
           </div>
         </v-flex>
@@ -125,6 +118,7 @@ export default {
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
 #link {
   color: #1dc4d0;
   text-decoration: none;
@@ -137,7 +131,7 @@ export default {
   position: relative;
   min-width: 100vw;
   min-height: 80vh;
-  margin-top: -70px;
+  margin-top: -10px;
   background-color: #151515;
 }
 #imagecontainer {
@@ -148,14 +142,28 @@ export default {
   }
 }
 #text {
-  text-align: left;
-  padding-top: 8%;
-  padding-left: 15%;
+  text-align: justify;
+  padding-top: 6%;
+  padding-left: 24%;
+  padding-right: 15%;
   color: white;
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-    Tahoma, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   line-height: 160%;
+}
+#text2 {
+  text-align: justify;
+  padding-left: 24%;
+  padding-right: 0%;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  line-height: 160%;
+}
+.block-text {
+  text-align: justify; /* Justifies the text */
 }
 @media (max-width: 1390px) {
   #text {
