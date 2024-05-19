@@ -46,7 +46,7 @@
                 <br />I will soon finish a 2 1/2 years Master's programme (M.Sc)
                 in Artificial Intelligence at the University of Maastricht.
                 <br /><br />
-                In have particular expertise in natural language processing,
+                I have particular expertise in natural language processing,
                 computer vision, planning and recommender systems. My experience
                 include model selection and development, fine-tuning, hardware
                 requirements and data organisation, such as collecting,
