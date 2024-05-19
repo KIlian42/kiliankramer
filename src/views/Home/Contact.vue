@@ -41,6 +41,7 @@ export default {
   min-width: 100vw;
   min-height: 80vh;
   background-size: cover;
+  background-position: -18%;
   //background-image: url("../../assets/stars3.jpg");
   background-image: linear-gradient(
       to top,
