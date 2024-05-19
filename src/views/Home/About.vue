@@ -51,8 +51,8 @@
                 include model selection and development, fine-tuning, hardware
                 requirements and data organisation, such as collecting,
                 preparing, examining, visualising and augmenting data. My
-                research is not limited to develop models for interesting (for
-                example medical) applications, but also improving the models
+                research is not limited to the model development for interesting
+                (e.g. medical) applications, but also improving the models
                 mathematically and designing these more sustainable with regard
                 to evolving computing impacts. Below are some references to
                 previous projects:<br />
