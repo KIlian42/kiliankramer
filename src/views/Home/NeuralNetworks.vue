@@ -49,15 +49,20 @@
           >
             <div id="text">
               <p>
-                Neural networks are capable of learning any pattern, however
-                every data needs pre-processing. <br /><br />For instance, texts
-                (words) are encoded in Chat-GPT as vectors, so called
+                I think neural networks are one of the most interesting
+                mathematical inventions, because they can learn any pattern.
+                However, there is a lot of theory behind them, which makes them
+                seem like black-box models. Understanding the model's basic
+                concepts, data sources and limitations is crucial for turning
+                the right knobs.
+                <br /><br />For instance, words are encoded in Chat-GPT
+                (Generative Pre-trained Transformer) as vectors, so called
                 embeddings. Through context-based training the language model
-                can learn the semantic relations by predicting masked contextual
-                words to cluster the related word vectors. <br /><br />In the
-                video is an example for image recognition. Special models for
-                computer vision are convolutional networks, which process image
-                features with convolutional filters.
+                did learn semantic / syntactical relations by mapping,
+                clustering, masking and predicting related words. <br /><br />In
+                the video is an example for computer vision. Image recognition
+                models, such as convolutional networks, learn image features
+                from small pieces through convolutional filters. <br /><br />
               </p>
             </div>
           </div>

@@ -42,20 +42,23 @@
           >
             <div id="text">
               <div class="block-text">
-                My name is Kilian Kramer and I am passionate AI engineer.
-                <br />I will soon finish a 2 1/2 years Master's programme (M.Sc)
-                in Artificial Intelligence at the University of Maastricht.
+                My name is Kilian Kramer (27), I am full-stack developer and
+                passionate AI engineer. I will finish next month a 2 1/2 years
+                Master's programme (M.Sc) in Artificial Intelligence at the
+                University of Maastricht.
                 <br /><br />
-                In particular I have expertise in natural language processing,
-                computer vision, planning and recommender systems. My experience
-                include model selection and development, fine-tuning, hardware
-                requirements and data organisation, e.g. collecting, preparing,
-                examining, visualising and augmenting data. My research isn't
-                limited to developing models for interesting applications (such
-                as the medical area), but also to improving these models
-                mathematically and making them more sustainable, taking into
-                account the evolving impact of computing. Below are some
-                references to previous projects:<br />
+                My research focuses on model development from scratch and
+                integrating lastest extisting models in production environment.
+                My experience includes model development or selection /
+                fine-tuning, hardware requirements and data organisation:
+                collecting, preparing, examining, visualising and augmenting
+                data. In particular I have expertise in natural language
+                processing, computer vision, planning and recommender systems.
+                Below are some references to previous projects:<br /><br />
+                ->
+                <a id="link" target="”_blank”" href="https://ella-group.io"
+                  >Personal assistant / Digital clone (Ella Media AG)</a
+                ><br />
                 ->
                 <a
                   id="link"
@@ -81,12 +84,13 @@
                   id="link"
                   target="”_blank”"
                   href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
-                  >Master Thesis (ECG classification)</a
+                  >Master Thesis (ECG arrhythmia disease detection)</a
                 ><br /><br />
               </div>
             </div>
             <div id="text2">
-              If you would like to get to know me, please send me an e-mail.
+              If you would like to collaborate with me, please send me an
+              e-mail.
             </div>
           </div>
         </v-flex>
