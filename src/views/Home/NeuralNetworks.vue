@@ -53,9 +53,9 @@
                 mathematical approaches, because by stacking the same simple
                 function many times allows to learn any pattern. Still there is
                 a lot of mathematical theory behind it, which makes them seem
-                like black-box models. However, understanding the model basic
-                concepts, training data sources and limitations is crucial for
-                tuning the right knobs and applying these models.
+                like black-box models. Knowing the model basic concepts,
+                training data sources and limitations is crucial for tuning the
+                right knobs and applying these models.
                 <br /><br />For instance, words are encoded in Chat-GPT
                 (Generative Pre-trained Transformer) as vectors, so called
                 embeddings. Through context-based pre-training a language model
@@ -63,7 +63,7 @@
                 masking and predicting contextual words. Next, these
                 probabilistic-based generative models are fine-tuned/aligned to
                 prompts to do certain tasks. Language models are great in
-                generating creative content, human-like chat conversations,
+                generating creative content, chat conversations,
                 question-answering, summarizing, enumerations, multiple-choice,
                 by now also processing multimodal or web data to some extent.
                 However, in contrast to this are mathematical arithmetical
