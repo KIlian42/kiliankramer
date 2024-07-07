@@ -50,19 +50,29 @@
             <div id="text">
               <p>
                 I think neural networks are one of the most interesting
-                mathematical inventions, because they can learn any pattern.
-                However, there is a lot of theory behind them, which makes them
-                seem like black-box models. Understanding the model's basic
-                concepts, data sources and limitations is crucial for turning
-                the right knobs.
+                mathematical approaches, because by stacking the same simple
+                function many times allows to learn any pattern. Still there is
+                a lot of mathematical theory behind it, which makes them seem
+                like black-box models. However, understanding the model basic
+                concepts, training data sources and limitations is crucial for
+                tuning the right knobs and applying these models.
                 <br /><br />For instance, words are encoded in Chat-GPT
                 (Generative Pre-trained Transformer) as vectors, so called
-                embeddings. Through context-based training the language model
-                did learn semantic / syntactical relations by mapping,
-                clustering, masking and predicting related words. <br /><br />In
-                the video is an example for computer vision. Image recognition
-                models, such as convolutional networks, learn image features
-                from small pieces through convolutional filters. <br /><br />
+                embeddings. Through context-based pre-training a language model
+                learns semantic/syntactical relations by mapping, clustering,
+                masking and predicting contextual words. Next, these
+                probabilistic-based generative models are fine-tuned/aligned to
+                prompts to do certain tasks. Language models are great in
+                generating creative content, human-like chat conversations,
+                question-answering, summarizing, enumerations, multiple-choice,
+                by now also processing multimodal or web data to some extent.
+                However, in contrast to this are mathematical arithmetical
+                calculations or reliable facts, given that for Chat-GPT two
+                third of the training data was crawled from the public
+                internet.<br /><br />The video shows an example for computer
+                vision. Image recognition models learn features from refined
+                image pieces through stacking convolutional filters in neural
+                networks. <br /><br />
               </p>
             </div>
           </div>

@@ -48,16 +48,16 @@
                 University of Maastricht.
                 <br /><br />
                 My research focuses on model development from scratch and
-                integrating lastest extisting models in production environment.
-                My experience includes model development or selection /
-                fine-tuning, hardware requirements and data organisation:
+                integrating lastest extisting models into production
+                environment. My experience includes model selection,
+                fine-tuning, hardware requirements and data organisation, e.g.
                 collecting, preparing, examining, visualising and augmenting
                 data. In particular I have expertise in natural language
                 processing, computer vision, planning and recommender systems.
                 Below are some references to previous projects:<br /><br />
                 ->
                 <a id="link" target="”_blank”" href="https://ella-group.io"
-                  >Personal assistant / Digital clone (Ella Media AG)</a
+                  >Personal assistant / digital clone (Ella Media AG)</a
                 ><br />
                 ->
                 <a

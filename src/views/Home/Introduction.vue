@@ -12,8 +12,8 @@
             <div id="text">
               <p>
                 Research on cutting edge AI <br />
-                and integrating existing models<br />
-                in real life applications.
+                and integration of latest models <br />
+                into business processes.<br />
               </p>
             </div>
           </div>
