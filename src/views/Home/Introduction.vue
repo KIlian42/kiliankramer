@@ -12,7 +12,7 @@
             <div id="text">
               <p>
                 Research on cutting edge AI <br />
-                and integrating latest ML models <br />
+                and integration of latest models <br />
                 into business processes.<br />
               </p>
             </div>
