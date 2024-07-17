@@ -57,14 +57,14 @@
                 previous (business) projects:<br /><br />
                 ->
                 <a id="link" target="”_blank”" href="https://ella-group.io"
-                  >Personalized audio/video assistant (Ella Media AG)</a
+                  >Personalized audio / video assistant (Ella Media AG)</a
                 ><br />
                 ->
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://next-audit.de/kira/"
-                  >Chatbot, RAG & vector databases: KIRA (NextAudit UG)</a
+                  >RAG / Chatbot & vector database: KIRA (NextAudit UG)</a
                 ><br />
                 ->
                 <a
@@ -72,20 +72,20 @@
                   target="”_blank”"
                   href="https://maskor.fh-aachen.de/projects/ARTUS/"
                 >
-                  Bachelor Thesis (autonomous driving): ARTUS</a
+                  B. Thesis about autonomous driving: ARTUS</a
                 >,
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://github.com/KIlian42/HTN-planning-under-resource-and-time-constraints-in-hybrid-mines"
-                  >(Gihub)</a
+                  >(Github)</a
                 ><br />
                 ->
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
-                  >Master Thesis (ECG arrhythmia disease detection)</a
+                  >M. Thesis about ECG arrhythmia disease detection</a
                 ><br /><br />
               </div>
             </div>
