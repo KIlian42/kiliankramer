@@ -49,30 +49,40 @@
           >
             <div id="text">
               <p>
-                I think neural networks are one of the most interesting
-                mathematical approaches, because by stacking the same simple
-                function many times allows to learn any pattern. Still there is
-                a lot of mathematical theory behind it, which makes them seem
-                like black-box models. Knowing the model basic concepts,
-                training data sources and limitations is crucial for tuning the
-                right knobs and applying these models.
-                <br /><br />For instance, words are encoded in Chat-GPT
-                (Generative Pre-trained Transformer) as vectors, so called
-                embeddings. Through context-based pre-training a language model
-                learns semantic/syntactical relations by mapping, clustering,
-                masking and predicting contextual words. Next, these
-                probabilistic-based generative models are fine-tuned/aligned to
-                prompts to do certain tasks. Language models are great in
-                generating creative content, chat conversations,
-                question-answering, summarizing, enumerations, multiple-choice,
-                by now also processing multimodal or web data to some extent.
-                However, in contrast to this are mathematical arithmetical
-                calculations or reliable facts, given that for Chat-GPT two
-                third of the training data was crawled from the public
-                internet.<br /><br />The video shows an example for computer
-                vision. Image recognition models learn features from refined
-                image pieces through stacking convolutional filters in neural
-                networks. <br /><br />
+                Neural networks are one of the most interesting mathematical
+                approaches, because by fitting the same simple function, that is
+                many times nested, allows to learn any pattern. However, still
+                there is a lot of research about explaining undergoing
+                processes, which sometimes makes them seem like magic black-box
+                models. Understanding the model training objective and
+                identifying data patterns is important when integrating machine
+                learning (ML) models and tuning the right knobs.
+                <br /><br />For instance, Chat-GPT (Generative Pre-trained
+                Transformer) is a probabilistic-based generative large language
+                model trained in an autoregressive manner. Words are encoded as
+                vectors, so called embeddings. Through context-based
+                pre-training the language model learns semantic / syntactical
+                relations by mapping, clustering, masking and predicting
+                contextual words. Next, the model is fine-tuned on text
+                completion by aligning it to instructions to do certain tasks.
+                Language models (chatbots) are great in chat conversations,
+                question answering, summarizing, enumerations, multiple-choice
+                tasks or generating creative content, by now also processing
+                multimodal or web data to some extent. However, in contrast to
+                this is doing arithmetical calculations or reliable facts, given
+                that for Chat-GPT data is outdated or two-thirds of the training
+                data was scraped from the public internet.<br /><br />The video
+                shows an example for image recognition. State-of-the-art
+                computer vision models learn features from refined image pieces
+                through combining convolutional filters in various ways. Today's
+                research seek to combine multimodal models and each day new
+                models are published that have more capabilities and are even
+                cheaper, because approaches become smarter and cheaper. Since AI
+                is steadily evolving and will become indispensable in any
+                business process, I study latest approaches and already take
+                advantage of open-source models. If you plan to adapt machine
+                learning models to your domain and business processes I can
+                consult you. <br /><br />
               </p>
             </div>
           </div>

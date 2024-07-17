@@ -47,37 +47,38 @@
                 Master's programme (M.Sc) in Artificial Intelligence at the
                 University of Maastricht.
                 <br /><br />
-                My research focuses on model development from scratch and
-                integrating lastest extisting models into production
-                environment. My experience includes model selection,
-                fine-tuning, hardware requirements and data organisation, e.g.
-                collecting, preparing, examining, visualising and augmenting
-                data. In particular I have expertise in natural language
-                processing, computer vision, planning and recommender systems.
-                Below are some references to previous projects:<br /><br />
+                My research interests include developing AI models from scratch
+                or integrating lastest models into applications. I am
+                experienced with model selection, fine-tuning, hardware
+                requirements and data organisation, e.g. collecting, preparing,
+                examining, visualising and augmenting data. In particular I have
+                expertise in natural language processing, computer vision,
+                recommender and scheduling systems. Below are some references to
+                previous (business) projects:<br /><br />
                 ->
                 <a id="link" target="”_blank”" href="https://ella-group.io"
-                  >Personal assistant / digital clone (Ella Media AG)</a
-                ><br />
-                ->
-                <a
-                  id="link"
-                  target="”_blank”"
-                  href="https://maskor.fh-aachen.de/projects/ARTUS/"
-                  >ARTUS (autonomous driving)</a
-                >,
-                <a
-                  id="link"
-                  target="”_blank”"
-                  href="https://github.com/KIlian42/HTN-planning-under-resource-and-time-constraints-in-hybrid-mines"
-                  >(Git)</a
+                  >Personalized audio/video assistant (Ella Media AG)</a
                 ><br />
                 ->
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://next-audit.de/kira/"
-                  >KIRA (natural language processing)</a
+                  >Chatbot, RAG & vector databases: KIRA (NextAudit UG)</a
+                ><br />
+                ->
+                <a
+                  id="link"
+                  target="”_blank”"
+                  href="https://maskor.fh-aachen.de/projects/ARTUS/"
+                >
+                  Bachelor Thesis (autonomous driving): ARTUS</a
+                >,
+                <a
+                  id="link"
+                  target="”_blank”"
+                  href="https://github.com/KIlian42/HTN-planning-under-resource-and-time-constraints-in-hybrid-mines"
+                  >(Gihub)</a
                 ><br />
                 ->
                 <a
