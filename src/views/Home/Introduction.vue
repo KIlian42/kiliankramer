@@ -13,7 +13,7 @@
               <p>
                 Research on cutting edge AI <br />
                 and integrating latest ML models <br />
-                into business processes.<br />
+                into business applications.<br />
               </p>
             </div>
           </div>

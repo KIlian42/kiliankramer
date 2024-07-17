@@ -76,13 +76,13 @@
                 computer vision models learn features from refined image pieces
                 through combining convolutional filters in various ways. Today's
                 research seek to combine multimodal models and each day new
-                models are published that have more capabilities and are even
+                models are published that become capable of more that are even
                 cheaper, because approaches become smarter and cheaper. Since AI
                 is steadily evolving and will become indispensable in any
-                business process, I study latest approaches and already take
+                working process, I study latest approaches and already take
                 advantage of open-source models. If you plan to adapt machine
-                learning models to your domain and business processes I can
-                consult you. <br /><br />
+                learning models to your domain and processes I can consult you.
+                <br /><br />
               </p>
             </div>
           </div>
