@@ -22,7 +22,7 @@
     </div>
     <div id="cvDiv">
       <a target="”_blank”" href="/CV Kilian Kramer.pdf">
-        <img src="cv.svg" alt="CV Icon" id="cv" />
+        <img src="/cv.svg" alt="CV Icon" id="cv" />
       </a>
     </div>
     <!--
