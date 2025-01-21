@@ -43,18 +43,19 @@
             <div id="text">
               <div class="block-text">
                 My name is Kilian Kramer (27), I am full-stack developer and
-                passionate AI engineer. I will finish next month a 2 1/2 years
+                passionate AI engineer. In August 2024 I finished a 2 1/2 years
                 Master's programme (M.Sc) in Artificial Intelligence at the
-                University of Maastricht.
+                Maastricht University.
                 <br /><br />
-                My research interests include developing AI models from scratch
-                or integrating lastest models into applications. I am
-                experienced with model selection, fine-tuning, hardware
-                requirements and data organisation, e.g. collecting, preparing,
-                examining, visualising and augmenting data. In particular I have
-                expertise in natural language processing, computer vision,
-                recommender and scheduling systems. Below are some references to
-                previous (business) projects:<br /><br />
+                I develop AI models from scratch or integrate them into personal
+                applications. My experiences include model development, hardware
+                requirements and data engineering, such as collecting,
+                preparing, exploring, visualising and augmenting data. My
+                research interest is to develop more sustainable deep learning
+                approaches and find interesting/improvable use cases. I also
+                build websites and backends and try to keep being up to date
+                with the latest technologies and frameworks. Below are some
+                references to my previous projects:<br /><br />
                 ->
                 <a id="link" target="”_blank”" href="https://ella-group.io"
                   >Personalized audio / video assistant (Ella Media AG)</a
@@ -64,7 +65,7 @@
                   id="link"
                   target="”_blank”"
                   href="https://next-audit.de/kira/"
-                  >RAG / Chatbot & vector database: KIRA (NextAudit UG)</a
+                  >RAG (Chatbot + vector database): KIRA (NextAudit UG)</a
                 ><br />
                 ->
                 <a

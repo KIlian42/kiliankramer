@@ -27,10 +27,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faArrowDown, faEnvelope, faVolumeHigh, faVolumeXmark, faChevronUp, faBars, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown, faEnvelope, faVolumeHigh, faVolumeXmark, faChevronUp, faBars, faPaperPlane, faFile } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faXingSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 /* add icons to the library */
-library.add(faArrowDown, faEnvelope, faGithub, faVolumeHigh, faLinkedin, faXingSquare, faInstagram, faVolumeXmark, faChevronUp, faBars, faPaperPlane)
+library.add(faArrowDown, faEnvelope, faFile, faGithub, faVolumeHigh, faLinkedin, faXingSquare, faInstagram, faVolumeXmark, faChevronUp, faBars, faPaperPlane)
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

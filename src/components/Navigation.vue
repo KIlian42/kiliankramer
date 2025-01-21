@@ -153,7 +153,7 @@ export default {
   z-index: 1;
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
     Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 .box {
   position: fixed;
@@ -164,7 +164,7 @@ export default {
   background-size: cover;
   height: 49px;
   width: 100%;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 .topbar {
   margin: 12px 25vw;
@@ -237,12 +237,14 @@ export default {
   padding-left: 30px;
   margin-top: -30px;
   cursor: pointer;
+  z-index: -5;
   ul {
     color: black;
     margin-left: -30px;
     padding-right: 20px;
     padding-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 1);
   }
   li {
     padding-left: 20px;

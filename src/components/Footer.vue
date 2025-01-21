@@ -20,6 +20,11 @@
         ><font-awesome-icon id="github" icon="fa-brands fa-github"
       /></a>
     </div>
+    <div id="cvDiv">
+      <a target="”_blank”" href="/CV Kilian Kramer.pdf">
+        <img src="cv.svg" alt="CV Icon" id="cv" />
+      </a>
+    </div>
     <!--
       <font-awesome-icon @click="mute" v-if="playmusic" id="volume" icon="fa-solid fa-volume-high" />
       <font-awesome-icon @click="mute" v-if="!playmusic" id="volume" icon="fa-solid fa-volume-xmark" />
@@ -98,6 +103,30 @@ export default {
   color: white;
   position: fixed;
   left: 20px;
+  bottom: 20px;
+}
+#cvDiv {
+  position: fixed;
+  right: 115.5px;
+  bottom: 15.5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.9;
+  z-index: 2;
+  &:hover {
+    #cv {
+      color: #434749;
+      opacity: 0.1;
+    }
+  }
+}
+#cv {
+  width: 40px;
+  height: 40px;
+  color: white;
+  position: fixed;
+  left: 70px;
   bottom: 20px;
 }
 #linkedinDiv {
