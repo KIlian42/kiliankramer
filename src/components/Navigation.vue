@@ -57,31 +57,31 @@
             :class="{ activeS: activeEntry == 'Entry-c' }"
             v-scroll-to="'#Entry-c'"
           >
-            •Top
+            • Top
           </li>
           <li
             :class="{ activeS: activeEntry == 'Introduction-c' }"
             v-scroll-to="'#Introduction-c'"
           >
-            •Intro
+            • Intro
           </li>
           <li
             :class="{ activeS: activeEntry == 'NeuralNetworks-c' }"
             v-scroll-to="'#NeuralNetworks-c'"
           >
-            •AI
+            • AI
           </li>
           <li
             :class="{ activeS: activeEntry == 'About-c' }"
             v-scroll-to="'#About-c'"
           >
-            •About
+            • About
           </li>
           <li
             :class="{ activeS: activeEntry == 'Contact-c' }"
             v-scroll-to="'#Contact-c'"
           >
-            •Contact
+            • Contact
           </li>
         </ul>
       </transition>
@@ -153,7 +153,7 @@ export default {
   z-index: 1;
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
     Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 .box {
   position: fixed;
@@ -232,6 +232,7 @@ export default {
 }
 
 .sidebar {
+  width: 200px;
   text-decoration: none;
   position: absolute;
   padding-left: 30px;

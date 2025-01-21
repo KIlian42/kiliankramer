@@ -92,7 +92,12 @@
                 critical part of everyday workflows. I seek to stay up-to-date
                 with the latest papers in the deep-learning field and actively
                 try to implement them (see:
-                https://github.com/KIlian42/AI-model-implementations).
+                <a
+                  id="link"
+                  target="”_blank”"
+                  href="https://github.com/KIlian42/AI-model-implementations"
+                  >https://github.com/KIlian42/AI-model-implementations</a
+                >).
               </p>
             </div>
           </div>
@@ -121,6 +126,14 @@ export default {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+}
+#link {
+  color: #1dc4d0;
+  text-decoration: none;
+  pointer: cursor;
+  &:hover {
+    text-decoration: underline !important;
+  }
 }
 #NeuralNetworks-c {
   position: relative;
@@ -167,7 +180,7 @@ export default {
     padding-right: 2%;
     padding-top: 15%;
     padding-bottom: 15%;
-    text-align: center;
+    text-align: left;
   }
 }
 @media (max-width: 1150px) {

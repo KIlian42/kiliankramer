@@ -51,23 +51,23 @@
                 applications. My experiences include model development, hardware
                 requirements and data engineering, such as collecting,
                 preparing, exploring, visualising and augmenting data. My
-                research interest is to develop more sustainable deep learning
-                approaches and find interesting/improvable use cases. I also
-                build websites and backends and try to keep being up to date
+                research interests are understanding and developing deep
+                learning approaches and applying them to interesting use cases.
+                Moreover, I build websites and backends and try to be up to date
                 with the latest technologies and frameworks. Below are some
                 references to my previous projects:<br /><br />
-                ->
+                •
                 <a id="link" target="”_blank”" href="https://ella-group.io"
                   >Personalized audio / video assistant (Ella Media AG)</a
                 ><br />
-                ->
+                •
                 <a
                   id="link"
                   target="”_blank”"
                   href="https://next-audit.de/kira/"
                   >RAG (Chatbot + vector database): KIRA (NextAudit UG)</a
                 ><br />
-                ->
+                •
                 <a
                   id="link"
                   target="”_blank”"
@@ -81,12 +81,12 @@
                   href="https://github.com/KIlian42/HTN-planning-under-resource-and-time-constraints-in-hybrid-mines"
                   >(Github)</a
                 ><br />
-                ->
+                •
                 <a
                   id="link"
                   target="”_blank”"
-                  href="https://github.com/KIlian42/Atrial-Fibrillation-Classification-using-Transformer-models"
-                  >M. Thesis about ECG arrhythmia disease detection</a
+                  href="https://github.com/KIlian42/Combining-Multi-Scale-Kernels-and-Transformer-Encoder-for-ECG-classification"
+                  >M. Thesis about arrhythmia disease detection in ECGs</a
                 ><br /><br />
               </div>
             </div>
@@ -140,9 +140,9 @@ export default {
 }
 #imagecontainer {
   img {
-    margin-left: -35%;
+    margin-left: -65%;
     margin-top: 8%;
-    width: 68%;
+    width: 120%;
   }
 }
 #text {

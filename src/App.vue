@@ -1,13 +1,13 @@
 <template>
   <div id="App">
-    <Navigation :mobileView=mobileView />
+    <Navigation :mobileView="mobileView" />
     <article>
       <section class="box">
-        <Entry  />
+        <Entry />
       </section>
-      <hr>
+      <hr />
       <section class="box">
-        <Introduction :screenHeight=screenHeight :screenWidth=screenWidth />
+        <Introduction :screenHeight="screenHeight" :screenWidth="screenWidth" />
       </section>
       <section class="box">
         <NeuralNetworks />
@@ -24,13 +24,13 @@
 </template>
 
 <script>
-import Navigation from "./components/Navigation.vue"
-import Entry from "./views/Home/Entry.vue"
-import Introduction from "./views/Home/Introduction.vue"
-import NeuralNetworks from "./views/Home/NeuralNetworks.vue"
-import About from "./views/Home/About.vue"
-import Contact from "./views/Home/Contact.vue"
-import FooterC from "./components/Footer.vue"
+import Navigation from "./components/Navigation.vue";
+import Entry from "./views/Home/Entry.vue";
+import Introduction from "./views/Home/Introduction.vue";
+import NeuralNetworks from "./views/Home/NeuralNetworks.vue";
+import About from "./views/Home/About.vue";
+import Contact from "./views/Home/Contact.vue";
+import FooterC from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -39,19 +39,15 @@ export default {
     screenHeight: null,
     screenWidth: null,
   }),
-  created() {
-
-  },
+  created() {},
   mounted() {
-    this.handleView()
-    window.addEventListener('resize', this.handleView)
+    this.handleView();
+    window.addEventListener("resize", this.handleView);
   },
   updated() {
-    console.log(this.screenWidth)
+    console.log(this.screenWidth);
   },
-  computed: {
-
-  },
+  computed: {},
   watch: {
     /*
     mobileView() {
@@ -73,13 +69,14 @@ export default {
     NeuralNetworks,
     About,
     Contact,
-    FooterC
-  }
+    FooterC,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-html, body {
+html,
+body {
   margin: 0px !important;
   padding: 0px !important;
 }
