@@ -90,8 +90,8 @@
                 State-of-the-art computer vision models learn features from
                 refined image pieces through combining convolutional filters in
                 various ways. As AI continues to evolve, it's becoming a
-                critical part of everyday workflows. I seek to stay up-to-date
-                with the latest papers in the deep-learning field and actively
+                critical part of everyday workflows. I seek to stay up to date
+                with the latest papers in the deep learning field and actively
                 try to implement them (see:
                 <a
                   id="link"
