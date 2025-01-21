@@ -75,15 +75,16 @@
                 ensures that model training can be accelerated in a
                 semi-supervised manner and that not every piece of data needs to
                 be manually labelled for further training. Recently, the model
-                also process multimodal (audio/image) data or, to some extent,
-                searching the Web. Even the size of the context has been
+                also processes multimodal (audio/image) data or, to some extent,
+                searching the Web. Even the size of the context could be
                 increased to 128,000 tokens within a single prompt. Current
-                challenges that ChatGPT still faces are arithmetic calculations
-                or reliable facts, as two-thirds of the pre-training data was
-                scraped from the public Internet (e.g. Wikipedia or even
-                Reddit), which is not trustworthy and outdated. To overcome
-                this, methods such as Retrieval-Augmented Generation (RAG) can
-                be employed to retrieve real-time data from (vector) databases.
+                challenges that ChatGPT and other large language models still
+                faces are arithmetic calculations or reliable facts, given that
+                two-thirds of the pre-training data was scraped from the public
+                Internet (e.g. Wikipedia or Reddit), which is outdated and
+                mostly not trustworthy. To overcome this, methods such as
+                Retrieval-Augmented Generation (RAG) can be employed to retrieve
+                real-time data from (vector) databases.
                 <br /><br />
                 The video shows an example for image recognition.
                 State-of-the-art computer vision models learn features from
